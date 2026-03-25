@@ -5,8 +5,8 @@ import com.example.EjercicioA;
 
 public class BenchmarkA {
 
-    private static final int[] SIZES_L = { 10, 100, 500, 1000, 5000, 10000 };
-    private static final int[] SIZES_R = { 10, 100, 1000, 10000, 100000, 1000000 };
+    private static final int[] SIZES_L = { 10, 100, 1000, 10000, 100000};
+    private static final int[] SIZES_R = { 10, 100, 1000, 10000, 100000};
     private static final int REPETITIONS = 10;
     private static final Random RANDOM = new Random(42);
 
